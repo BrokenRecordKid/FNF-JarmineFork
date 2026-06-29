@@ -1,0 +1,45 @@
+{
+	"songs": [
+		[
+			"Carmine",
+			"carmine"
+		],
+		[
+			"Crayon-Dragon-Dog",
+			"carmine",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Maroon",
+			"carmine",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "Easy, Normal, Hard",
+	"weekCharacters": [
+		"carmine",
+		"bf",
+		"gf"
+	],
+	"storyName": "It's him. it's actually him the carmine",
+	"weekName": "Carmine's Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

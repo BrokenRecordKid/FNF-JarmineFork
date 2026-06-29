@@ -1,0 +1,35 @@
+{
+	"storyNameErect": "RED SNOW",
+	"difficultiesErect": "Erect,Nightmare",
+	"hideFreeplayErect": false,
+	"erectionBackground": "christmas",
+	"erectionBefore": "week4e",
+	"startUnlockedErect": true,
+	"hideStoryModeErect": false,
+	"erectionCharacters": [
+		"parents-christmas",
+		"bf",
+		"gf"
+	],
+	"songsErect": [
+		[
+			"Cocoa Erect",
+			"volume4",
+			[
+				160,
+				209,
+				255
+			]
+		],
+		[
+			"Eggnog Erect",
+			"expansion1",
+			[
+				160,
+				209,
+				255
+			]
+		]
+	],
+	"erectionName": "Week 5 Erect"
+}

@@ -1,0 +1,44 @@
+{
+	"storyNameErect": "PICO",
+	"difficultiesErect": "Erect,Nightmare",
+	"hideFreeplayErect": false,
+	"erectionBackground": "philly",
+	"erectionBefore": "week2e",
+	"startUnlockedErect": true,
+	"hideStoryModeErect": false,
+	"erectionCharacters": [
+		"pico",
+		"bf",
+		"gf"
+	],
+	"songsErect": [
+		[
+			"Pico Erect",
+			"volume3",
+			[
+				148,
+				22,
+				83
+			]
+		],
+		[
+			"Philly Nice Erect",
+			"volume3",
+			[
+				148,
+				22,
+				83
+			]
+		],
+		[
+			"Blammed Erect",
+			"erect-sampler",
+			[
+				148,
+				22,
+				83
+			]
+		]
+	],
+	"erectionName": "Week 3 Erect"
+}

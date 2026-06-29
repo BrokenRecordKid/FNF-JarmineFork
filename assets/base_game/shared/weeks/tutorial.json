@@ -1,0 +1,21 @@
+{
+	"storyName": "TEACHINGTIME",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Tutorial",
+			"volume1-official"
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Tutorial"
+}

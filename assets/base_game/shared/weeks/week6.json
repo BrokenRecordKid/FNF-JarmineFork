@@ -1,0 +1,28 @@
+{
+	"storyName": "hating simulator ft. moawling",
+	"hideFreeplay": false,
+	"weekBackground": "school",
+	"weekBefore": "week5",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"senpai",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Senpai",
+			"volume2-pixel"
+		],
+		[
+			"Roses",
+			"volume2-pixel"
+		],
+		[
+			"Thorns",
+			"volume2-pixel"
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 6"
+}

@@ -1,0 +1,36 @@
+{
+	"songs": [
+		[
+			"Boxerdog",
+			"boxerdog"
+		],
+		[
+			"Doofus",
+			"boxerdog",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hiddenUntilUnlocked": false,
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"difficulties": "Normal",
+	"weekCharacters": [
+		"boxerdog",
+		"bf",
+		"gf"
+	],
+	"storyName": "It's me the dog!!!",
+	"weekName": "Boxerdog!",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": true,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}

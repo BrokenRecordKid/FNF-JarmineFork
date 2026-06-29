@@ -1,0 +1,44 @@
+{
+	"storyNameErect": "hating simulator ft. moawling",
+	"difficultiesErect": "Erect,Nightmare",
+	"hideFreeplayErect": false,
+	"erectionBackground": "school",
+	"erectionBefore": "week5e",
+	"startUnlockedErect": true,
+	"hideStoryModeErect": false,
+	"erectionCharacters": [
+		"senpai",
+		"bf",
+		"gf"
+	],
+	"songsErect": [
+		[
+			"Senpai Erect",
+			"volume3",
+			[
+				255,
+				120,
+				191
+			]
+		],
+		[
+			"Roses Erect",
+			"volume3",
+			[
+				255,
+				120,
+				191
+			]
+		],
+		[
+			"Thorns Erect",
+			"volume3",
+			[
+				255,
+				120,
+				191
+			]
+		]
+	],
+	"erectionName": "Week 6 Erect"
+}

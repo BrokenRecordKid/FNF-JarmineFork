@@ -1,0 +1,31 @@
+{
+	"storyNameErect": "Due Debts",
+	"difficultiesErect": "Erect,Nightmare",
+	"hideFreeplayErect": false,
+	"erectionBackground": "phillystreets",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"erectionBefore": "week7e",
+	"startUnlockedErect": true,
+	"hideStoryModeErect": false,
+	"songsErect": [
+		[
+			"Darnell Erect",
+			"expansion2",
+			[
+				65,
+				60,
+				174
+			]
+		]
+	],
+	"erectionCharacters": [
+		"darnell",
+		"pico-player",
+		"nene"
+	],
+	"erectionName": "Weekend 1 Erect"
+}

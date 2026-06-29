@@ -1,0 +1,28 @@
+{
+	"storyName": "Tankman ft. JohnnyUtah",
+	"hideFreeplay": false,
+	"weekBackground": "tank",
+	"weekBefore": "week6",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"tankman",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Ugh",
+			"volume2"
+		],
+		[
+			"Guns",
+			"volume2"
+		],
+		[
+			"Stress",
+			"volume2"
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 7"
+}

@@ -1,0 +1,44 @@
+{
+	"storyNameErect": "Daddy Dearest",
+	"difficultiesErect": "Erect,Nightmare",
+	"hideFreeplayErect": false,
+	"erectionBackground": "stage",
+	"erectionBefore": "",
+	"startUnlockedErect": true,
+	"hideStoryModeErect": false,
+	"erectionCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songsErect": [
+		[
+			"Bopeebo Erect",
+			"volume3",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Fresh Erect",
+			"volume3",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"Dad Battle Erect",
+			"volume3",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"erectionName": "Week 1 Erect"
+}

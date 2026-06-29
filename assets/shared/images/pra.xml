@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pra.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="practice0000" x="0" y="0" width="404" height="132" frameX="-34" frameY="-19" frameWidth="472" frameHeight="151"/>
+	<SubTexture name="practice0001" x="404" y="0" width="472" height="79" frameX="0" frameY="-66" frameWidth="472" frameHeight="151"/>
+	<SubTexture name="practice0002" x="0" y="132" width="444" height="107" frameX="-14" frameY="-41" frameWidth="472" frameHeight="151"/>
+	<SubTexture name="practice0003" x="444" y="132" width="404" height="124" frameX="-34" frameY="-21" frameWidth="472" frameHeight="151"/>
+	<SubTexture name="practice0004" x="0" y="256" width="360" height="148" frameX="-56" frameY="0" frameWidth="472" frameHeight="151"/>
+	<SubTexture name="practice0005" x="360" y="256" width="380" height="130" frameX="-46" frameY="-18" frameWidth="472" frameHeight="151"/>
+	<SubTexture name="practice0006" x="0" y="0" width="404" height="132" frameX="-34" frameY="-19" frameWidth="472" frameHeight="151"/>
+	<SubTexture name="practice0007" x="0" y="0" width="404" height="132" frameX="-34" frameY="-19" frameWidth="472" frameHeight="151"/>
+	<SubTexture name="practice0008" x="0" y="0" width="404" height="132" frameX="-34" frameY="-19" frameWidth="472" frameHeight="151"/>
+	<SubTexture name="practice0009" x="0" y="0" width="404" height="132" frameX="-34" frameY="-19" frameWidth="472" frameHeight="151"/>
+</TextureAtlas>

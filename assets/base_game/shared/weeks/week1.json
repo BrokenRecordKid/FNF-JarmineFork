@@ -1,0 +1,28 @@
+{
+	"storyName": "Daddy Dearest",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"Bopeebo",
+			"volume1-official"
+		],
+		[
+			"Fresh",
+			"volume1-official"
+		],
+		[
+			"Dad Battle",
+			"volume1"
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "Week 1"
+}
