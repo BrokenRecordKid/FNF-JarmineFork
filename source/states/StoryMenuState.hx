@@ -249,11 +249,14 @@ class StoryMenuState extends MusicBeatState
 		changeWeek();
 		changeDifficulty();
 
-		var erectButton:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('erectButton'));
+		var erectButton:FlxSprite = new FlxSprite(0, 0);
 		erectButton.antialiasing = ClientPrefs.data.antialiasing;
+		erectButton.frames = Paths.getSparrowAtlas('erectButton');
 		erectButton.animation.addByPrefix('idle', 'loop0');
 		erectButton.animation.play('idle');
 		add(erectButton);
+
+		erectButton.scale.set(0.8, 0.8);
 
 		super.create();
 	}
@@ -352,7 +355,7 @@ class StoryMenuState extends MusicBeatState
 			MusicBeatState.switchState(new MainMenuState());
 		}
 
-		erectButtonStuff();
+		// erectButtonStuff();
 
 		super.update(elapsed);
 		
