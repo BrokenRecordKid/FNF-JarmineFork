@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sprite_Boxer_Dog.png">
+	<!-- Created with Adobe Animate version 24.0.9.73 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SPRITE_DOWN0000" x="20" y="20" width="473" height="484"/>
+	<SubTexture name="SPRITE_DOWN0001" x="513" y="20" width="473" height="484"/>
+	<SubTexture name="SPRITE_IDLE0000" x="1006" y="20" width="520" height="505"/>
+	<SubTexture name="SPRITE_IDLE0001" x="1546" y="20" width="520" height="505"/>
+	<SubTexture name="SPRITE_IDLE0002" x="2086" y="20" width="520" height="505"/>
+	<SubTexture name="SPRITE_IDLE0003" x="2626" y="20" width="520" height="505"/>
+	<SubTexture name="SPRITE_IDLE0004" x="3166" y="20" width="520" height="505"/>
+	<SubTexture name="SPRITE_IDLE0005" x="20" y="545" width="520" height="505"/>
+	<SubTexture name="SPRITE_IDLE0006" x="560" y="545" width="520" height="505"/>
+	<SubTexture name="SPRITE_IDLE0007" x="1100" y="545" width="520" height="505"/>
+	<SubTexture name="SPRITE_IDLE0008" x="1640" y="545" width="520" height="505"/>
+	<SubTexture name="SPRITE_IDLE0009" x="2180" y="545" width="520" height="505"/>
+	<SubTexture name="SPRITE_LEFT0000" x="2720" y="545" width="466" height="505"/>
+	<SubTexture name="SPRITE_LEFT0001" x="2720" y="545" width="466" height="505"/>
+	<SubTexture name="SPRITE_LEFT0002" x="3206" y="545" width="466" height="505"/>
+	<SubTexture name="SPRITE_LEFT0003" x="3206" y="545" width="466" height="505"/>
+	<SubTexture name="SPRITE_LEFT0004" x="3206" y="545" width="466" height="505"/>
+	<SubTexture name="SPRITE_LEFT0005" x="3206" y="545" width="466" height="505"/>
+	<SubTexture name="SPRITE_LEFT0006" x="3206" y="545" width="466" height="505"/>
+	<SubTexture name="SPRITE_RIGHT0000" x="20" y="1070" width="492" height="511"/>
+	<SubTexture name="SPRITE_RIGHT0001" x="20" y="1070" width="492" height="511"/>
+	<SubTexture name="SPRITE_RIGHT0002" x="532" y="1070" width="492" height="511"/>
+	<SubTexture name="SPRITE_RIGHT0003" x="532" y="1070" width="492" height="511"/>
+	<SubTexture name="SPRITE_RIGHT0004" x="532" y="1070" width="492" height="511"/>
+	<SubTexture name="SPRITE_RIGHT0005" x="532" y="1070" width="492" height="511"/>
+	<SubTexture name="SPRITE_UP0000" x="1044" y="1070" width="518" height="524"/>
+	<SubTexture name="SPRITE_UP0001" x="1044" y="1070" width="518" height="524"/>
+	<SubTexture name="SPRITE_UP0002" x="1582" y="1070" width="518" height="524"/>
+	<SubTexture name="SPRITE_UP0003" x="1582" y="1070" width="518" height="524"/>
+	<SubTexture name="SPRITE_UP0004" x="1582" y="1070" width="518" height="524"/>
+	<SubTexture name="SPRITE_UP0005" x="1582" y="1070" width="518" height="524"/>
+</TextureAtlas>

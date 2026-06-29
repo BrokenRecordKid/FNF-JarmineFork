@@ -1,0 +1,9 @@
+{
+	"idle_anim": "SPRITE_IDLE",
+	"image": "Menu_Boxerdog",
+	"position": [120, 70],
+	"flipX": false,
+	"antialiasing": true,
+	"scale": 0.65,
+	"confirm_anim": ""
+}

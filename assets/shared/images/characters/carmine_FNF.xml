@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="carmine_FNF.png">
+	<!-- Created with Adobe Flash Professional version 15.0.0.173 -->
+	<!-- http://www.adobe.com/products/flash.html -->
+	<SubTexture name="carmine down0000" x="20" y="20" width="719" height="491" frameX="0" frameY="-5" frameWidth="719" frameHeight="496"/>
+	<SubTexture name="carmine down0001" x="20" y="20" width="719" height="491" frameX="0" frameY="-5" frameWidth="719" frameHeight="496"/>
+	<SubTexture name="carmine down0002" x="759" y="20" width="696" height="496" frameX="-10" frameY="0" frameWidth="719" frameHeight="496"/>
+	<SubTexture name="carmine down0003" x="759" y="20" width="696" height="496" frameX="-10" frameY="0" frameWidth="719" frameHeight="496"/>
+	<SubTexture name="carmine down0004" x="759" y="20" width="696" height="496" frameX="-10" frameY="0" frameWidth="719" frameHeight="496"/>
+	<SubTexture name="carmine down0005" x="759" y="20" width="696" height="496" frameX="-10" frameY="0" frameWidth="719" frameHeight="496"/>
+	<SubTexture name="carmine down0006" x="759" y="20" width="696" height="496" frameX="-10" frameY="0" frameWidth="719" frameHeight="496"/>
+	<SubTexture name="carmine down0007" x="759" y="20" width="696" height="496" frameX="-10" frameY="0" frameWidth="719" frameHeight="496"/>
+	<SubTexture name="carmine idle0000" x="20" y="536" width="748" height="487" frameX="0" frameY="-33" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0001" x="20" y="536" width="748" height="487" frameX="0" frameY="-33" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0002" x="788" y="536" width="725" height="500" frameX="-15" frameY="-20" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0003" x="788" y="536" width="725" height="500" frameX="-15" frameY="-20" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0004" x="20" y="1056" width="701" height="520" frameX="-20" frameY="0" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0005" x="20" y="1056" width="701" height="520" frameX="-20" frameY="0" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0006" x="741" y="1056" width="705" height="517" frameX="-16" frameY="-3" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0007" x="741" y="1056" width="705" height="517" frameX="-16" frameY="-3" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0008" x="20" y="1596" width="706" height="516" frameX="-15" frameY="-4" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0009" x="20" y="1596" width="706" height="516" frameX="-15" frameY="-4" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0010" x="20" y="1596" width="706" height="516" frameX="-15" frameY="-4" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0011" x="20" y="1596" width="706" height="516" frameX="-15" frameY="-4" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0012" x="20" y="1596" width="706" height="516" frameX="-15" frameY="-4" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine idle0013" x="20" y="1596" width="706" height="516" frameX="-15" frameY="-4" frameWidth="748" frameHeight="520"/>
+	<SubTexture name="carmine left0000" x="746" y="1596" width="711" height="514" frameX="0" frameY="-2" frameWidth="723" frameHeight="516"/>
+	<SubTexture name="carmine left0001" x="746" y="1596" width="711" height="514" frameX="0" frameY="-2" frameWidth="723" frameHeight="516"/>
+	<SubTexture name="carmine left0002" x="20" y="2132" width="698" height="516" frameX="-25" frameY="0" frameWidth="723" frameHeight="516"/>
+	<SubTexture name="carmine left0003" x="20" y="2132" width="698" height="516" frameX="-25" frameY="0" frameWidth="723" frameHeight="516"/>
+	<SubTexture name="carmine left0004" x="20" y="2132" width="698" height="516" frameX="-25" frameY="0" frameWidth="723" frameHeight="516"/>
+	<SubTexture name="carmine left0005" x="20" y="2132" width="698" height="516" frameX="-25" frameY="0" frameWidth="723" frameHeight="516"/>
+	<SubTexture name="carmine left0006" x="20" y="2132" width="698" height="516" frameX="-25" frameY="0" frameWidth="723" frameHeight="516"/>
+	<SubTexture name="carmine left0007" x="20" y="2132" width="698" height="516" frameX="-25" frameY="0" frameWidth="723" frameHeight="516"/>
+	<SubTexture name="carmine right0000" x="738" y="2132" width="671" height="516" frameX="-12" frameY="0" frameWidth="683" frameHeight="516"/>
+	<SubTexture name="carmine right0001" x="738" y="2132" width="671" height="516" frameX="-12" frameY="0" frameWidth="683" frameHeight="516"/>
+	<SubTexture name="carmine right0002" x="20" y="2668" width="665" height="513" frameX="0" frameY="-3" frameWidth="683" frameHeight="516"/>
+	<SubTexture name="carmine right0003" x="20" y="2668" width="665" height="513" frameX="0" frameY="-3" frameWidth="683" frameHeight="516"/>
+	<SubTexture name="carmine right0004" x="20" y="2668" width="665" height="513" frameX="0" frameY="-3" frameWidth="683" frameHeight="516"/>
+	<SubTexture name="carmine right0005" x="20" y="2668" width="665" height="513" frameX="0" frameY="-3" frameWidth="683" frameHeight="516"/>
+	<SubTexture name="carmine right0006" x="20" y="2668" width="665" height="513" frameX="0" frameY="-3" frameWidth="683" frameHeight="516"/>
+	<SubTexture name="carmine right0007" x="20" y="2668" width="665" height="513" frameX="0" frameY="-3" frameWidth="683" frameHeight="516"/>
+	<SubTexture name="carmine up0000" x="705" y="2668" width="644" height="544" frameX="-35" frameY="0" frameWidth="698" frameHeight="544"/>
+	<SubTexture name="carmine up0001" x="705" y="2668" width="644" height="544" frameX="-35" frameY="0" frameWidth="698" frameHeight="544"/>
+	<SubTexture name="carmine up0002" x="20" y="3232" width="698" height="531" frameX="0" frameY="-13" frameWidth="698" frameHeight="544"/>
+	<SubTexture name="carmine up0003" x="20" y="3232" width="698" height="531" frameX="0" frameY="-13" frameWidth="698" frameHeight="544"/>
+	<SubTexture name="carmine up0004" x="20" y="3232" width="698" height="531" frameX="0" frameY="-13" frameWidth="698" frameHeight="544"/>
+	<SubTexture name="carmine up0005" x="20" y="3232" width="698" height="531" frameX="0" frameY="-13" frameWidth="698" frameHeight="544"/>
+	<SubTexture name="carmine up0006" x="20" y="3232" width="698" height="531" frameX="0" frameY="-13" frameWidth="698" frameHeight="544"/>
+	<SubTexture name="carmine up0007" x="20" y="3232" width="698" height="531" frameX="0" frameY="-13" frameWidth="698" frameHeight="544"/>
+</TextureAtlas>

@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [2, 2],
+			"anim": "idle",
+			"fps": 24,
+			"name": "SPRITE_IDLE",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [2, 2],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "SPRITE_LEFT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-40, -21],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "SPRITE_DOWN0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [11, 18],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "SPRITE_UP0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-26, 0],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "SPRITE_RIGHT0",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Sprite_Boxer_Dog",
+	"position": [0, 250],
+	"healthicon": "boxerdog",
+	"flip_x": false,
+	"healthbar_colors": [42, 135, 253],
+	"camera_position": [0, 0],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

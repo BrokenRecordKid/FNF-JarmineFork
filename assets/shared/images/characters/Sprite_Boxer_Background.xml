@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Sprite_Boxer_Background.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="SPRITE_BOUNCE0000" x="20" y="20" width="390" height="495" frameX="0" frameY="-10" frameWidth="390" frameHeight="505"/>
+	<SubTexture name="SPRITE_BOUNCE0001" x="410" y="20" width="379" height="500" frameX="-7" frameY="-5" frameWidth="390" frameHeight="505"/>
+	<SubTexture name="SPRITE_BOUNCE0002" x="789" y="20" width="371" height="502" frameX="-10" frameY="-3" frameWidth="390" frameHeight="505"/>
+	<SubTexture name="SPRITE_BOUNCE0003" x="1160" y="20" width="368" height="504" frameX="-11" frameY="-1" frameWidth="390" frameHeight="505"/>
+	<SubTexture name="SPRITE_BOUNCE0004" x="1528" y="20" width="364" height="505" frameX="-13" frameY="0" frameWidth="390" frameHeight="505"/>
+	<SubTexture name="SPRITE_BOUNCE0005" x="20" y="525" width="363" height="505" frameX="-14" frameY="0" frameWidth="390" frameHeight="505"/>
+	<SubTexture name="SPRITE_BOUNCE0006" x="383" y="525" width="361" height="505" frameX="-15" frameY="0" frameWidth="390" frameHeight="505"/>
+	<SubTexture name="SPRITE_BOUNCE0007" x="744" y="525" width="361" height="505" frameX="-15" frameY="0" frameWidth="390" frameHeight="505"/>
+	<SubTexture name="SPRITE_BOUNCE0008" x="1105" y="525" width="361" height="505" frameX="-15" frameY="0" frameWidth="390" frameHeight="505"/>
+	<SubTexture name="SPRITE_BOUNCE0009" x="1466" y="525" width="361" height="505" frameX="-15" frameY="0" frameWidth="390" frameHeight="505"/>
+</TextureAtlas>

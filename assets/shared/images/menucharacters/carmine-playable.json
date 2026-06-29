@@ -1,0 +1,9 @@
+{
+	"idle_anim": "carmine idle0",
+	"image": "Menu_Carmine",
+	"position": [270, 50],
+	"flipX": false,
+	"antialiasing": true,
+	"scale": 0.55,
+	"confirm_anim": "carmine idle0"
+}

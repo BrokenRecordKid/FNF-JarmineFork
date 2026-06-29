@@ -1,0 +1,55 @@
+{
+	"animations": [
+		{
+			"offsets": [0, 0],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "EXAVIER_IDLE0"
+		},
+		{
+			"loop": false,
+			"offsets": [-12, -12],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "EXAVIER_DOWN0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-60, 42],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "EXAVIER_UP0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [34, 12],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "EXAVIER_RIGHT0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [-45, 6],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "EXAVIER_LEFT0",
+			"indices": []
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Exavier_Morkie_Assets",
+	"position": [-230, 80],
+	"healthicon": "morkie",
+	"flip_x": false,
+	"healthbar_colors": [0, 52, 176],
+	"camera_position": [0, 0],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}

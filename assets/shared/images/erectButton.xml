@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="erectButton.png">
+	<!-- Created using the Spritesheet and XML generator -->
+	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
+	<SubTexture name="loop0000" x="0" y="0" width="365" height="400" frameX="-925" frameY="-294" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0001" x="0" y="0" width="365" height="400" frameX="-925" frameY="-294" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0002" x="0" y="0" width="365" height="400" frameX="-925" frameY="-294" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0003" x="0" y="0" width="365" height="400" frameX="-925" frameY="-294" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0004" x="0" y="400" width="357" height="401" frameX="-930" frameY="-292" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0005" x="0" y="400" width="357" height="401" frameX="-930" frameY="-292" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0006" x="0" y="400" width="357" height="401" frameX="-930" frameY="-292" frameWidth="1280" frameHeight="720"/>
+	<SubTexture name="loop0007" x="0" y="400" width="357" height="401" frameX="-930" frameY="-292" frameWidth="1280" frameHeight="720"/>
+</TextureAtlas>

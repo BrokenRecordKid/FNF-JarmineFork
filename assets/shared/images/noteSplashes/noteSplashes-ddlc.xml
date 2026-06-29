@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="noteSplashes-ddlc.png">
+<SubTexture name="doki splash red 10000" x="0" y="0" width="250" height="250"/>
+<SubTexture name="doki splash red 10001" x="250" y="0" width="250" height="250"/>
+<SubTexture name="doki splash red 10002" x="500" y="0" width="250" height="250"/>
+<SubTexture name="doki splash red 10003" x="750" y="0" width="250" height="250"/>
+<SubTexture name="doki splash red 10004" x="0" y="250" width="250" height="250"/>
+<SubTexture name="doki splash red 10005" x="250" y="250" width="250" height="250"/>
+<SubTexture name="doki splash red 10006" x="500" y="250" width="250" height="250"/>
+<SubTexture name="doki splash red 10007" x="750" y="250" width="250" height="250"/>
+<SubTexture name="doki splash red 10008" x="0" y="500" width="250" height="250"/>
+<SubTexture name="doki splash red 10009" x="250" y="500" width="250" height="250"/>
+<SubTexture name="doki splash red 10010" x="500" y="500" width="250" height="250"/>
+
+<SubTexture name="doki splash blue 10000" x="0" y="0" width="250" height="250"/>
+<SubTexture name="doki splash blue 10001" x="250" y="0" width="250" height="250"/>
+<SubTexture name="doki splash blue 10002" x="500" y="0" width="250" height="250"/>
+<SubTexture name="doki splash blue 10003" x="750" y="0" width="250" height="250"/>
+<SubTexture name="doki splash blue 10004" x="0" y="250" width="250" height="250"/>
+<SubTexture name="doki splash blue 10005" x="250" y="250" width="250" height="250"/>
+<SubTexture name="doki splash blue 10006" x="500" y="250" width="250" height="250"/>
+<SubTexture name="doki splash blue 10007" x="750" y="250" width="250" height="250"/>
+<SubTexture name="doki splash blue 10008" x="0" y="500" width="250" height="250"/>
+<SubTexture name="doki splash blue 10009" x="250" y="500" width="250" height="250"/>
+<SubTexture name="doki splash blue 10010" x="500" y="500" width="250" height="250"/>
+
+<SubTexture name="doki splash green 10000" x="0" y="0" width="250" height="250"/>
+<SubTexture name="doki splash green 10001" x="250" y="0" width="250" height="250"/>
+<SubTexture name="doki splash green 10002" x="500" y="0" width="250" height="250"/>
+<SubTexture name="doki splash green 10003" x="750" y="0" width="250" height="250"/>
+<SubTexture name="doki splash green 10004" x="0" y="250" width="250" height="250"/>
+<SubTexture name="doki splash green 10005" x="250" y="250" width="250" height="250"/>
+<SubTexture name="doki splash green 10006" x="500" y="250" width="250" height="250"/>
+<SubTexture name="doki splash green 10007" x="750" y="250" width="250" height="250"/>
+<SubTexture name="doki splash green 10008" x="0" y="500" width="250" height="250"/>
+<SubTexture name="doki splash green 10009" x="250" y="500" width="250" height="250"/>
+<SubTexture name="doki splash green 10010" x="500" y="500" width="250" height="250"/>
+
+<SubTexture name="doki splash purple 10000" x="0" y="0" width="250" height="250"/>
+<SubTexture name="doki splash purple 10001" x="250" y="0" width="250" height="250"/>
+<SubTexture name="doki splash purple 10002" x="500" y="0" width="250" height="250"/>
+<SubTexture name="doki splash purple 10003" x="750" y="0" width="250" height="250"/>
+<SubTexture name="doki splash purple 10004" x="0" y="250" width="250" height="250"/>
+<SubTexture name="doki splash purple 10005" x="250" y="250" width="250" height="250"/>
+<SubTexture name="doki splash purple 10006" x="500" y="250" width="250" height="250"/>
+<SubTexture name="doki splash purple 10007" x="750" y="250" width="250" height="250"/>
+<SubTexture name="doki splash purple 10008" x="0" y="500" width="250" height="250"/>
+<SubTexture name="doki splash purple 10009" x="250" y="500" width="250" height="250"/>
+<SubTexture name="doki splash purple 10010" x="500" y="500" width="250" height="250"/>
+
+<SubTexture name="doki splash gold 10000" x="0" y="0" width="250" height="250"/>
+<SubTexture name="doki splash gold 10001" x="250" y="0" width="250" height="250"/>
+<SubTexture name="doki splash gold 10002" x="500" y="0" width="250" height="250"/>
+<SubTexture name="doki splash gold 10003" x="750" y="0" width="250" height="250"/>
+<SubTexture name="doki splash gold 10004" x="0" y="250" width="250" height="250"/>
+<SubTexture name="doki splash gold 10005" x="250" y="250" width="250" height="250"/>
+<SubTexture name="doki splash gold 10006" x="500" y="250" width="250" height="250"/>
+<SubTexture name="doki splash gold 10007" x="750" y="250" width="250" height="250"/>
+<SubTexture name="doki splash gold 10008" x="0" y="500" width="250" height="250"/>
+<SubTexture name="doki splash gold 10009" x="250" y="500" width="250" height="250"/>
+<SubTexture name="doki splash gold 10010" x="500" y="500" width="250" height="250"/>
+</TextureAtlas>
