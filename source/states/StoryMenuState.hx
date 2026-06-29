@@ -254,7 +254,7 @@ class StoryMenuState extends MusicBeatState
 		erectButton.frames = Paths.getSparrowAtlas('erectButton');
 		erectButton.animation.addByPrefix('idle', 'loop0');
 		erectButton.animation.play('idle');
-		add(erectButton);
+		// add(erectButton);
 
 		erectButton.scale.set(0.8, 0.8);
 

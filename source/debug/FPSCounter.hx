@@ -4,6 +4,7 @@ import flixel.FlxG;
 import openfl.text.TextField;
 import openfl.text.TextFormat;
 import openfl.system.System;
+import openfl.filters.GlowFilter;
 
 /**
 	The FPS class provides an easy-to-use monitor to display
@@ -20,6 +21,8 @@ class FPSCounter extends TextField
 		The current memory usage (WARNING: this is NOT your total program memory usage, rather it shows the garbage collector memory)
 	**/
 	public var memoryMegas(get, never):Float;
+
+	var outline = new GlowFilter(0x000000, 1.0, 8, 8, 10, 1);
 
 	@:noCompletion private var times:Array<Float>;
 
@@ -39,6 +42,7 @@ class FPSCounter extends TextField
 		text = "FPS: ";
 
 		times = [];
+		filters = [outline];
 	}
 
 	var deltaTimeout:Float = 0.0;
@@ -62,7 +66,7 @@ class FPSCounter extends TextField
 
 	public dynamic function updateText():Void { // so people can override it in hscript
 		text = 'FPS: ${currentFPS}'
-		+ '\nMemory: ${flixel.util.FlxStringUtil.formatBytes(memoryMegas)}';
+		+ ' - Memory: ${flixel.util.FlxStringUtil.formatBytes(memoryMegas)}';
 
 		textColor = 0xFFFFFFFF;
 		if (currentFPS < FlxG.drawFramerate * 0.5)

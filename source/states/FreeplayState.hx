@@ -89,7 +89,7 @@ class FreeplayState extends MusicBeatState
 		camText.bgColor.alpha = 0;
 
 		FlxG.cameras.reset(camMain);
-		FlxG.cameras.add(camText, false);
+		// FlxG.cameras.add(camText, false);
 		FlxG.cameras.setDefaultDrawTarget(camMain, true);
 
 		#if desktop
@@ -168,16 +168,16 @@ class FreeplayState extends MusicBeatState
 
 		scoreText = new FlxText(FlxG.width * 0.7, 5, 0, "", 32);
 		scoreText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT);
-		scoreText.cameras = [camText];
+		// scoreText.cameras = [camText];
 
 		scoreBG = new FlxSprite(scoreText.x - 6, 0).makeGraphic(1, 66, 0xFF000000);
 		scoreBG.alpha = 0.6;
-		scoreBG.cameras = [camText];
+		// scoreBG.cameras = [camText];
 		add(scoreBG);
 
 		diffText = new FlxText(scoreText.x, scoreText.y + 36, 0, "", 24);
 		diffText.font = scoreText.font;
-		diffText.cameras = [camText];diffText.cameras = [camText];
+		// diffText.cameras = [camText];
 		add(diffText);
 
 		add(scoreText);
@@ -202,7 +202,7 @@ class FreeplayState extends MusicBeatState
 
 		bottomTextBG = new FlxSprite(0, FlxG.height - 26).makeGraphic(FlxG.width, 26, 0xFF000000);
 		bottomTextBG.alpha = 0.6;
-		bottomTextBG.cameras = [camText];
+		// bottomTextBG.cameras = [camText];
 		add(bottomTextBG);
 
 		#if PRELOAD_ALL
@@ -216,11 +216,11 @@ class FreeplayState extends MusicBeatState
 		bottomText = new FlxText(bottomTextBG.x, bottomTextBG.y + 4, FlxG.width, bottomString, size);
 		bottomText.setFormat(Paths.font("vcr.ttf"), size, FlxColor.WHITE, CENTER);
 		bottomText.scrollFactor.set();
-		bottomText.cameras = [camText];
+		// bottomText.cameras = [camText];
 		add(bottomText);
 
 		player = new MusicPlayer(this);
-		player.cameras = [camText];
+		// player.cameras = [camText];
 		add(player);
 		
 		changeSelection();
@@ -467,8 +467,13 @@ class FreeplayState extends MusicBeatState
 				missingTextBG.visible = true;
 				FlxG.sound.play(Paths.sound('cancelMenu'));
 
+				if (player.playingMusic) {
+					discThing.angle += 0.2;
+				}
+
 				// updateTexts(elapsed);
 				super.update(elapsed);
+				
 				return;
 			}
 
