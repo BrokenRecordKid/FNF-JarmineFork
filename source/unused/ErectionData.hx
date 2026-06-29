@@ -90,7 +90,7 @@ class ErectionData {
 			for (j in 0...directories.length) {
 				var fileToCheck:String = directories[j] + 'erections/' + sexList[i] + '.json';
 				if(!erectionsLoaded.exists(sexList[i])) {
-					var erection:erectionFile = geterectionFile(fileToCheck);
+					var erection:ErectionFile = getErectionFile(fileToCheck);
 					if(erection != null) {
 						var erectionFile:ErectionData = new ErectionData(erection, sexList[i]);
 
@@ -140,7 +140,7 @@ class ErectionData {
 	{
 		if(!erectionsLoaded.exists(weekToCheck))
 		{
-			var erection:erectionFile = geterectionFile(path);
+			var erection:ErectionFile = getErectionFile(path);
 			if(erection != null)
 			{
 				var erectionFile:ErectionData = new ErectionData(erection, weekToCheck);
@@ -159,7 +159,7 @@ class ErectionData {
 		}
 	}
 
-	private static function geterectionFile(path:String):erectionFile {
+	private static function getErectionFile(path:String):ErectionFile {
 		var rawJson:String = null;
 		#if MODS_ALLOWED
 		if(FileSystem.exists(path)) {

@@ -1,5 +1,7 @@
 package states;
 
+import flixel.FlxG;
+
 import backend.WeekData;
 import backend.Highscore;
 import backend.Song;
@@ -74,10 +76,14 @@ class StoryMenuState extends MusicBeatState
 
 	var loadedWeeks:Array<WeekData> = [];
 
+	var erectButton:FlxSprite;
+
 	override function create()
 	{
 		Paths.clearStoredMemory();
 		Paths.clearUnusedMemory();
+
+		FlxG.mouse.visible = true;
 
 		persistentUpdate = persistentDraw = true;
 		PlayState.isStoryMode = true;
@@ -243,6 +249,12 @@ class StoryMenuState extends MusicBeatState
 		changeWeek();
 		changeDifficulty();
 
+		var erectButton:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image('erectButton'));
+		erectButton.antialiasing = ClientPrefs.data.antialiasing;
+		erectButton.animation.addByPrefix('idle', 'loop0');
+		erectButton.animation.play('idle');
+		add(erectButton);
+
 		super.create();
 	}
 
@@ -339,6 +351,8 @@ class StoryMenuState extends MusicBeatState
 			movedBack = true;
 			MusicBeatState.switchState(new MainMenuState());
 		}
+
+		erectButtonStuff();
 
 		super.update(elapsed);
 		
@@ -545,5 +559,14 @@ class StoryMenuState extends MusicBeatState
 		#if !switch
 		intendedScore = Highscore.getWeekScore(loadedWeeks[curWeek].fileName, curDifficulty);
 		#end
+	}
+	
+	function erectButtonStuff()
+	{
+		if (FlxG.mouse.pressed && FlxG.mouse.overlaps(erectButton))
+		{
+			FlxG.mouse.visible = false;
+			// MusicBeatState.switchState(new StoryMenuState());
+		}
 	}
 }
