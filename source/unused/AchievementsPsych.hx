@@ -55,8 +55,8 @@ class Achievements {
 		#if BASE_GAME_FILES
 		createAchievement('debugger',				{name: "Debugger", description: "Beat the \"Test\" Stage from the Chart Editor.", hidden: true});
 		#end
-		#if (TITLE_SCREEN_EASTER_EGG || JARMINE_WATERMARKS)
-		createAchievement('carmine_easter_egg',		{name: "Modder's Best Friend", description: "Woof! (Hey there! I guess you found me!) ", hidden: true});
+		#if (TITLE_SCREEN_EASTER_EGG || PSYCH_WATERMARKS)
+		createAchievement('pessy_easter_egg',		{name: "Engine Gal Pal", description: "Teehee, you found me~!", hidden: true});
 		#end
 
 		//dont delete this thing below

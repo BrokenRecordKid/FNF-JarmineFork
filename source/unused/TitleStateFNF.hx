@@ -58,7 +58,7 @@ class TitleState extends MusicBeatState
 
 	#if TITLE_SCREEN_EASTER_EGG
 	final easterEggKeys:Array<String> = [
-		'CARMINE'
+		'SHADOW', 'RIVEREN', 'BBPANZU', 'PESSY'
 	];
 	final allowedKeys:String = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 	var easterEggKeysBuffer:String = '';
@@ -293,13 +293,6 @@ class TitleState extends MusicBeatState
 				gfPosition.y += 60;
 				danceLeftFrames = [29, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
 				danceRightFrames = [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28];
-			case 'CARMINE':
-				characterImage = 'CarmineBump';
-				animationName = 'carmine gf dance0';
-				gfPosition.x += 100;
-				gfPosition.y += 135;
-				danceLeftFrames = [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
-				danceRightFrames = [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29];
 		}
 	}
 
@@ -592,8 +585,7 @@ class TitleState extends MusicBeatState
 						sound = FlxG.sound.play(Paths.sound('JingleBB'));
 					case 'PESSY':
 						sound = FlxG.sound.play(Paths.sound('JinglePessy'));
-					case 'CARMINE':
-						sound = FlxG.sound.play(Paths.sound('JingleCarmine'));
+
 					default: //Go back to normal ugly ass boring GF
 						remove(ngSpr);
 						remove(credGroup);
@@ -626,7 +618,7 @@ class TitleState extends MusicBeatState
 						FlxG.sound.music.fadeIn(4, 0, 0.7);
 						transitioning = false;
 						#if ACHIEVEMENTS_ALLOWED
-						if(easteregg == 'CARMINE') Achievements.unlock('carmine_easter_egg');
+						if(easteregg == 'PESSY') Achievements.unlock('pessy_easter_egg');
 						#end
 					};
 				}
