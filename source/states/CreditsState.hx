@@ -78,6 +78,7 @@ class CreditsState extends MusicBeatState
 			['Ledonic',				'ledonic',				'Ported the erect remixes (erect remixes psych port)',							'https://x.com/ledonic852','3897FF'],
 			[""],
 			['Miscellaneous Credits'],
+			['FNFunk1234',				'missing_icon',				'Too Much Album Covers',							'https://gamebanana.com/members/4523652','FFFFFF'],
 			['Elizm',				'missing_icon',				'Botplay and Practice Sprites',							'https://www.youtube.com/channel/UChsKy4smD8OS3fiFfXbr0mg','FFFFFF']
 		];
 		
