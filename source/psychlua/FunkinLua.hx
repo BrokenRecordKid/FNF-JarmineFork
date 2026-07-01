@@ -37,6 +37,7 @@ import psychlua.HScript;
 #end
 import psychlua.DebugLuaText;
 import psychlua.ModchartSprite;
+import psychlua.ModchartBackdrop;
 
 import flixel.input.keyboard.FlxKey;
 import flixel.input.gamepad.FlxGamepadInputID;
@@ -1040,6 +1041,47 @@ class FunkinLua {
 					GameOverSubstate.instance.insert(GameOverSubstate.instance.members.indexOf(GameOverSubstate.instance.boyfriend), mySprite);
 			}
 		});
+		Lua_helper.add_callback(lua, "makeLuaBackdrop", function(tag:String, image:String) {
+			tag = tag.replace('.', '');
+			LuaUtils.resetBackdropTag(tag);
+			var leSprite:ModchartBackdrop = new ModchartBackdrop(Paths.image(image));
+			game.modchartBackdrops.set(tag, leSprite);
+			leSprite.active = true;
+		});
+
+		Lua_helper.add_callback(lua, "addLuaBackdrop", function(tag:String, front:Bool = false) {
+			if(game.modchartBackdrops.exists(tag)) {
+				var trash:ModchartBackdrop = game.modchartBackdrops.get(tag);
+				if(front)
+					LuaUtils.getTargetInstance().add(trash);
+				else
+				{
+					if(!game.isDead)
+						game.insert(game.members.indexOf(LuaUtils.getLowestCharacterGroup()), trash);
+					else
+					{
+						GameOverSubstate.instance.insert(GameOverSubstate.instance.members.indexOf(GameOverSubstate.instance.boyfriend), trash);
+					}
+				}
+			}
+		});
+
+		Lua_helper.add_callback(lua, "removeLuaBackdrop", function(tag:String, destroy:Bool = true) {
+			if(!game.modchartBackdrops.exists(tag)) {
+				return;
+			}
+
+			var sophist:ModchartBackdrop = game.modchartBackdrops.get(tag);
+			if(destroy) {
+				sophist.kill();
+			}
+
+			LuaUtils.getTargetInstance().remove(sophist, true);
+			if(destroy) {
+				sophist.destroy();
+				game.modchartBackdrops.remove(tag);
+			}
+		});
 		Lua_helper.add_callback(lua, "setGraphicSize", function(obj:String, x:Float, y:Float = 0, updateHitbox:Bool = true) {
 			if(game.getLuaObject(obj)!=null) {
 				var shit:FlxSprite = game.getLuaObject(obj);
@@ -1131,7 +1173,10 @@ class FunkinLua {
 			var obj:FlxSound = MusicBeatState.getVariables().get('sound_$tag');
 			return (obj != null && Std.isOfType(obj, FlxSound));
 		});
-
+		Lua_helper.add_callback(lua, "luaBackdropExists", function(tag:String) {
+			return game.modchartBackdrops.exists(tag);
+		});
+		
 		Lua_helper.add_callback(lua, "setHealthBarColors", function(left:String, right:String) {
 			var left_color:Null<FlxColor> = null;
 			var right_color:Null<FlxColor> = null;

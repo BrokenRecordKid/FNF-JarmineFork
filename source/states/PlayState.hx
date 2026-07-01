@@ -102,6 +102,10 @@ class PlayState extends MusicBeatState
 	public var hscriptArray:Array<HScript> = [];
 	#end
 
+	#if LUA_ALLOWED
+	public var modchartBackdrops:Map<String, ModchartBackdrop> = new Map<String, ModchartBackdrop>();
+	#end
+
 	public var BF_X:Float = 770;
 	public var BF_Y:Float = 100;
 	public var DAD_X:Float = 100;
@@ -885,9 +889,12 @@ class PlayState extends MusicBeatState
 		#end
 	}
 
-	public function getLuaObject(tag:String):Dynamic
+	public function getLuaObject(tag:String):Dynamic {
+		if(modchartBackdrops.exists(tag)) return modchartBackdrops.get(tag);
 		return variables.get(tag);
-
+		return null;
+	}
+	
 	function startCharacterPos(char:Character, ?gfCheck:Bool = false) {
 		if(gfCheck && char.curCharacter.startsWith('gf')) { //IF DAD IS GIRLFRIEND, HE GOES TO HER POSITION
 			char.setPosition(GF_X, GF_Y);

@@ -63,5 +63,8 @@ import flixel.group.FlxSpriteGroup;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.addons.transition.FlxTransitionableState;
 
+//Backdrop 
+import flixel.addons.display.FlxBackdrop;
+
 using StringTools;
 #end

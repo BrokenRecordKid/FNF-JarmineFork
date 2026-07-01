@@ -68,7 +68,7 @@ class LoadingState extends MusicBeatState
 	var curPercent:Float = 0;
 	var stateChangeDelay:Float = 0;
 
-	#if JARMINE_WATERMARKS
+	#if PSYCH_WATERMARKS
 	var logo:FlxSprite;
 	var pessy:FlxSprite;
 	var loadingText:FlxText;
@@ -142,11 +142,11 @@ class LoadingState extends MusicBeatState
 		}
 		#end
 
-		#if JARMINE_WATERMARKS // JARMINE LOADING SCREEN
+		#if PSYCH_WATERMARKS // PSYCH LOADING SCREEN
 		var bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
 		bg.antialiasing = ClientPrefs.data.antialiasing;
 		bg.setGraphicSize(Std.int(FlxG.width));
-		bg.color = 0xFFFFAA01;
+		bg.color = 0xFFD16FFF;
 		bg.updateHitbox();
 		addBehindBar(bg);
 	
@@ -229,7 +229,7 @@ class LoadingState extends MusicBeatState
 		}
 		#end
 
-		#if JARMINE_WATERMARKS // PSYCH LOADING SCREEN
+		#if PSYCH_WATERMARKS // PSYCH LOADING SCREEN
 		timePassed += elapsed;
 		shakeFl += elapsed * 3000;
 		var dots:String = '';

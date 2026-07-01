@@ -328,6 +328,20 @@ class LuaUtils
 		return false;
 	}
 	
+	public static function resetBackdropTag(tag:String) {
+		#if LUA_ALLOWED
+		if(!PlayState.instance.modchartBackdrops.exists(tag)) {
+			return;
+		}
+
+		var target:ModchartBackdrop = PlayState.instance.modchartBackdrops.get(tag);
+		target.kill();
+		PlayState.instance.remove(target, true);
+		target.destroy();
+		PlayState.instance.modchartBackdrops.remove(tag);
+		#end
+	}
+	
 	public static function loadFrames(spr:FlxSprite, image:String, spriteType:String)
 	{
 		switch(spriteType.toLowerCase().replace(' ', ''))
