@@ -116,6 +116,19 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		option.changeValue = 0.1;
 		addOption(option);
 
+		var option:Option = new Option('Gitaroo Pause',
+			"Should the gitaroo pause show up?",
+			'gitarooPauseSettings',
+			STRING,
+			['Never', 'Vanilla', 'Always']);
+		addOption(option);
+
+		var option:Option = new Option('Davial Rating',
+			"If checked, you have the davial rating (the perfect rating)",
+			'davialRatingHolyShit',
+			BOOL);
+		addOption(option);
+
 		super();
 	}
 

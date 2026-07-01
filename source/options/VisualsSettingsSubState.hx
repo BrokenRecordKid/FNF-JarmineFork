@@ -173,7 +173,6 @@ class VisualsSettingsSubState extends BaseOptionsMenu
 			['Psych', 'Blue', 'Pink']);
 		addOption(option);
 
-
 		var option:Option = new Option('Botplay and Practice Sprites',
 			"If unchecked, Botplay and Pratice will only be text",
 			'botplayImages',

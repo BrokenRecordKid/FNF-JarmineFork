@@ -286,6 +286,8 @@ class PlayState extends MusicBeatState
 	// Jarmine Events Vars
 	var flashingShit:FlxSprite;
 	
+	var gitarooShit = ClientPrefs.data.gitarooPauseSettings;
+
 	override public function create()
 	{
 		//trace('Playback Rate: ' + playbackRate);
@@ -2044,12 +2046,24 @@ class PlayState extends MusicBeatState
 				}
 		}
 
-		if (chartingMode) {
-			openSubState(new PauseSubState());
+		if (gitarooShit == "Vanilla") {
+			if (chartingMode) {
+				openSubState(new PauseSubState());
+			} else {
+				if (FlxG.random.bool(0.1)) {
+					// gitaroo man easter egg
+					openSubState(new GitarooPauseSubState());
+				} else {
+					openSubState(new PauseSubState());
+				}
+			}
 		} else {
-			if (FlxG.random.bool(0.1)) {
-				// gitaroo man easter egg
-				openSubState(new GitarooPauseSubState());
+			if (gitarooShit == "Always") {
+				if (chartingMode) {
+					openSubState(new PauseSubState());
+				} else {
+					openSubState(new GitarooPauseSubState());
+				}
 			} else {
 				openSubState(new PauseSubState());
 			}

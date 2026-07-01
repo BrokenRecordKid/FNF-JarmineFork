@@ -83,6 +83,10 @@ import states.TitleState;
 	public var coolFuckingHealthbar:Bool = false;
 	public var botplayImages:Bool = true;
 	public var psychDSRatingAnims:Bool = true;
+	public var coolerfuckingratings:Bool = false;
+
+	public var davialRatingHolyShit:Bool = false;
+	public var gitarooPauseSettings:String = 'Vanilla';
 }
 
 class ClientPrefs {
