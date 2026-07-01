@@ -5,16 +5,14 @@
   <name>PsychEngine</name>
   <developer id="github.com/shadowmario">
     <name>ShadowMario</name>
-    <contact>https://github.com/ShadowMario/</contact>
+    <contact>https://github.com/BrokenRecordKid</contact>
   </developer>
   <summary>Desktop implementation of Friday Night Funkin'</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>Apache-2.0</project_license>
-  <url type="homepage">https://github.com/ShadowMario/FNF-PsychEngine</url>
+  <url type="homepage">https://github.com/BrokenRecordKid/FNF-JarmineFork</url>
   <description>
-      <p>Engine originally used on the Mind Games Mod for Friday Night Funkin', intended to be a fix for the vanilla version's
-          many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie developers
-          wanting to make their own variants.</p>
+      <p>A fork of the titular "FNF: Psych Engine".</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -63,5 +61,5 @@
     <content_attribute id="language-profanity">moderate</content_attribute>
     <content_attribute id="language-humor">intense</content_attribute>
   </content_rating>
-  <update_contact>https://github.com/ShadowMario/FNF-PsychEngine</update_contact>
+  <update_contact>https://github.com/BrokenRecordKid/FNF-JarmineFork</update_contact>
 </component>
