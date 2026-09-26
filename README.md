@@ -1,6 +1,8 @@
 # FNF: SPRITESHEET (+ PSYCH ENGINE: JARMINE FORK)
 An FNF mod with a custom [Psych Engine v1.0.4](https://github.com/ShadowMario/FNF-PsychEngine) fork, and all that stuff...
 
+Jarmine Fork is being reworked into Psych Engine Roadkill Edition.
+
 ***
 
 # PSYCH ENGINE: JARMINE FORK CREDITS
